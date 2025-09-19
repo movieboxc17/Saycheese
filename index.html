@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://d66ab66fa18235d3006a9b8949e6aa47.serveo.net">
-    <title>AppStore</title>
-    <script>
-        // Fallback JavaScript redirect
-        window.location.href = "https://d66ab66fa18235d3006a9b8949e6aa47.serveo.net";
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppStore</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    .spinner {
+      border: 6px solid rgba(255, 255, 255, 0.2);
+      border-top: 6px solid #fff;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    a {
+      color: #ffdf5d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <meta http-equiv="refresh" content="2; url=https://d66ab66fa18235d3006a9b8949e6aa47.serveo.net">
+  <script>
+    setTimeout(() => {
+      window.location.href = "https://d66ab66fa18235d3006a9b8949e6aa47.serveo.net";
+    }, 2000);
+  </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="https://d66ab66fa18235d3006a9b8949e6aa47.serveo.net">click here</a>.</p>
+  <div class="spinner"></div>
+  <h1>Redirecting you to...</h1>
+  <p>If you are not redirected, <a href="https://d66ab66fa18235d3006a9b8949e6aa47.serveo.net">click here</a>.</p>
 </body>
 </html>
